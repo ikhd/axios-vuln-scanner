@@ -1,0 +1,18 @@
+{
+  "name": "axios-vuln-scanner",
+  "version": "1.0.0",
+  "description": "Scan Node.js projects for vulnerable axios versions (CVE-2023-45857 and more)",
+  "main": "scan.js",
+  "bin": {
+    "axios-vuln-scanner": "./scan.js"
+  },
+  "scripts": {
+    "scan": "node scan.js"
+  },
+  "keywords": ["axios", "vulnerability", "security", "scanner", "CVE", "nodejs"],
+  "author": "ikhd",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
